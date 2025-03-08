@@ -14,3 +14,6 @@ def get_fun_fact(_):
         '<h2><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210720224119/MessagingHappyicon.png" width="7%"> Fun Fact Generator</h2>'
         '</p>'
     )
+    
+    #URL fetch data
+    url = "https://uselessfacts.jsph.pl/random.json?language=en"
