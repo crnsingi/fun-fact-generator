@@ -17,3 +17,6 @@ def get_fun_fact(_):
     
     #URL fetch data
     url = "https://uselessfacts.jsph.pl/random.json?language=en"
+
+    #Get request
+    response = requests.get(url)
