@@ -21,3 +21,6 @@ def get_fun_fact(_):
     #Get request
     response = requests.get(url)
     
+    # Load the request in json file
+    data = json.loads(response.text)
+    
