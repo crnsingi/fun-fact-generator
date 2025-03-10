@@ -27,3 +27,6 @@ def get_fun_fact(_):
     #'text' from the data 
     useless_fact = data['text']
     
+    # Put the fact in blue color and increase the font size
+    style(put_text(useless_fact), 'color:blue; font-size: 30px')
+    
