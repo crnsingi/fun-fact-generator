@@ -24,3 +24,6 @@ def get_fun_fact(_):
     # Load the request in json file
     data = json.loads(response.text)
     
+    #'text' from the data 
+    useless_fact = data['text']
+    
