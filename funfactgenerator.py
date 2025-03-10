@@ -36,3 +36,11 @@ def get_fun_fact(_):
         onclick=get_fun_fact
     )
     
+    # Driver Function
+    if __name__ == '__main__':
+        #Heading "Func Fact Generator"
+        put_html(
+            '<p align="left">'
+            '<h2><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210720224119/MessagingHappyicon.png" width="7%"> Fun Fact Generator</h2>'
+            '</p>'    
+        )
