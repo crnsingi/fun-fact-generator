@@ -30,3 +30,9 @@ def get_fun_fact(_):
     # Put the fact in blue color and increase the font size
     style(put_text(useless_fact), 'color:blue; font-size: 30px')
     
+    #"Click me" button
+    put_buttons(
+        [dict(label='Click me', value='outline-success', color='outline-success')],
+        onclick=get_fun_fact
+    )
+    
